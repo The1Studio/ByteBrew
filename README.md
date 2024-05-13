@@ -42,6 +42,7 @@ App Tracking Transparency Handler:
  You can add https://github.com/The1Studio/ByteBrew.git?path=Assets/Src/ByteBrewSDK# to Package Manager
 
  ![image](https://github.com/The1Studio/ByteBrew/assets/9598614/79ed5410-b4b1-4104-a23e-007d840b9d2c)
+
  ![image](https://github.com/The1Studio/ByteBrew/assets/9598614/4e5dcd9d-26a1-4e11-882c-1a0fdad833ea)
 
 ### Install via OpenUPM
