@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e826381917c8cd843882283d1f069711, type: 3}
   m_Name: ByteBrewSettings
   m_EditorClassIdentifier: 
-  iosEnabled: 1
-  iosGameID: HK1_7gK_Y
-  iosSDKKey: 00HfXzKaYi6Xt0Shq/hm4p+ocQuznvZKcRhiqqokXun80DApEd18oBYqEm1DlXXY
-  androidEnabled: 1
-  androidGameID: PDOagxs62
-  androidSDKKey: 2igv82NEXohivaO9AZVDmez57ZX2vQsoEI/+v2uLlT5j0oKEzUvonB4pnY72vF7B
+  iosEnabled: 0
+  iosGameID: 
+  iosSDKKey: 
+  androidEnabled: 0
+  androidGameID: 
+  androidSDKKey: 

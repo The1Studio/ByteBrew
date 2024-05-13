@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using ByteBrewSDK;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
@@ -11,7 +12,7 @@ public class ByteBrewSettingsUtility
 	{
 
 		// Make sure the file name is unique, in case an existing Prefab has the same name.
-		Object bytePref = AssetDatabase.LoadAssetAtPath("Assets/ByteBrewSDK/Prefabs/ByteBrew.prefab", typeof(GameObject));
+		Object bytePref = AssetLoader.LoadAssetByName<GameObject>("ByteBrew");
 
 		// Create the new Prefab.
 		PrefabUtility.InstantiatePrefab(bytePref);
@@ -25,7 +26,7 @@ public class ByteBrewSettingsUtility
 
 		//AssetDatabase.CreateAsset(asset, "Assets/ByteBrewSDK/Resources/ByteBrewSettings.asset");
 
-		ByteBrewSettings asset = AssetDatabase.LoadAssetAtPath<ByteBrewSettings>("Assets/ByteBrewSDK/Resources/ByteBrewSettings.asset");
+		ByteBrewSettings asset = ByteBrewSettingsManager.EnsureByteBrewSettings();
 
 		EditorUtility.FocusProjectWindow();
 		Selection.activeObject = asset;

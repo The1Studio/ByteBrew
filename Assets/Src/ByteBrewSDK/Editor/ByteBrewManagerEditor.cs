@@ -15,9 +15,9 @@ namespace ByteBrewSDK
         {
             base.OnInspectorGUI();
             serializedObject.Update();
-            ByteBrewSettings manager = AssetDatabase.LoadAssetAtPath<ByteBrewSettings>("Assets/ByteBrewSDK/Resources/ByteBrewSettings.asset");
+            ByteBrewSettings manager = ByteBrewSettingsManager.EnsureByteBrewSettings();
 
-            Texture bytebrewLogo = (Texture)AssetDatabase.LoadAssetAtPath("Assets/ByteBrewSDK/Images/bytebrewfulllogo.png", typeof(Texture));
+            Texture bytebrewLogo = AssetLoader.LoadAssetByName<Texture2D>("bytebrewfulllogo");
 
             GUI.DrawTexture(new Rect(15f, 30f, 275f, 75f), bytebrewLogo);
 
@@ -140,6 +140,5 @@ namespace ByteBrewSDK
             serializedObject.ApplyModifiedProperties();
         }
     }
-
 }
 
