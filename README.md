@@ -37,11 +37,13 @@ App Tracking Transparency Handler:
  [ByteBrew Dashboard](https://dashboard.bytebrew.io): Setup your mobile games and view your real-time analytics.
 
  ## Installation
- #Install via git URL
+ ###Install via git URL
  You can add https://github.com/The1Studio/ByteBrew.git?path=Assets/Src/ByteBrewSDK# to Package Manager
+
  ![image](https://github.com/The1Studio/ByteBrew/assets/9598614/79ed5410-b4b1-4104-a23e-007d840b9d2c)
  ![image](https://github.com/The1Studio/ByteBrew/assets/9598614/4e5dcd9d-26a1-4e11-882c-1a0fdad833ea)
- #Install via OpenUPM
+
+ ###Install via OpenUPM
  Coming soon..!!!
 
  You can download the Unity package from this github to install straight into your project.
