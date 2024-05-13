@@ -1,4 +1,4 @@
-# ByteBrewUnitySDK
+# ByteBrewUnitySDK - UPM support version
  ByteBrew is the free easy to integrate Unity SDK that provides your game with Real-Time Analytic Tracking, Monetization Tracking, Attribution, ATT (App Tracking Transparency) Unity Custom Completion Handler, Remote Configs and A/B Testing.
 
  ## Summary
