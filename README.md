@@ -48,9 +48,10 @@ App Tracking Transparency Handler:
 ### Install via OpenUPM
 
  Coming soon..!!!
+### Download package from git
 
- You can download the Unity package from this github to install straight into your project.
-
+ please go to https://github.com/ByteBrewIO/ByteBrewUnitySDK to download.
+ 
  Follow the [documentation](https://docs.bytebrew.io/sdk/unity) to continue integration.
 
  Create your ByteBrew account to access the [dashboard](https://dashboard.bytebrew.io/register), or if you do have an account login [here](https://dashboard.bytebrew.io/login).
