@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
@@ -11,6 +9,11 @@ namespace ByteBrewSDK
     [CustomEditor(typeof(ByteBrewSettings))]
     public class ByteBrewEditor : Editor
     {
+        public ByteBrewEditor()
+        {
+            ByteBrewSettingsManager.EnsureByteBrewSettings();
+        }
+        
         public override void OnInspectorGUI()
         {
             base.OnInspectorGUI();
