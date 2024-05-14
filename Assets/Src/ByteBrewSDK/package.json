@@ -2,7 +2,7 @@
 	"name": "com.theone.bytebrew",
 	"displayName": "ByteBrew",
 	"description": "Custom ByteBrew for The One",
-	"version": "0.1.14.1",
+	"version": "0.1.14.2",
 	"unity": "2019.4",
 	"license": "MIT"
   }
