@@ -9,11 +9,6 @@ namespace ByteBrewSDK
     [CustomEditor(typeof(ByteBrewSettings))]
     public class ByteBrewEditor : Editor
     {
-        public ByteBrewEditor()
-        {
-            ByteBrewSettingsManager.EnsureByteBrewSettings();
-        }
-        
         public override void OnInspectorGUI()
         {
             base.OnInspectorGUI();
