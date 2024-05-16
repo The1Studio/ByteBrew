@@ -47,7 +47,14 @@ App Tracking Transparency Handler:
 
 ### Install via OpenUPM
 
- Coming soon..!!!
+name: `OpenUPM`
+URL: `https://package.openupm.com`
+Scope: `com.theone`
+
+then add: `"com.theone.bytebrew": "1.0.2"` `to manifest.json`
+
+![image](https://github.com/The1Studio/ByteBrew/assets/9598614/a5b41ff8-86d0-4936-884d-9b3e89bd1334)
+
 ### Download package from git
 
  please go to https://github.com/ByteBrewIO/ByteBrewUnitySDK to download.
